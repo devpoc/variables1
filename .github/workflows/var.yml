@@ -14,4 +14,4 @@ jobs:
       with:
         fetch-depth: 20
         lfs: true
-    - run: echo "${{ API_KEY }}"
+    - run: echo "${{ secret.API_KEY }}"
